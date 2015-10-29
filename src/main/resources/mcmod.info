@@ -1,0 +1,21 @@
+[
+{
+  "modid": "PJAL",
+  "name": "PJA1982 Learning to Mod",
+  "description": "Stuff",
+  "version": "1.7.10-1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "PJA1982"
+  ],
+  "credits": "PJA1982",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
