@@ -1,16 +1,16 @@
-package com.PJA1982.PJAL;
+package com.PJA1982.pjal;
 
-import com.PJA1982.PJAL.handler.ConfigurationHandler;
-import com.PJA1982.PJAL.proxy.IPorxy;
-import com.PJA1982.PJAL.reference.Reference;
-import com.PJA1982.PJAL.utility.LogHelper;
+import com.PJA1982.pjal.handler.ConfigurationHandler;
+import com.PJA1982.pjal.init.ModItems;
+import com.PJA1982.pjal.proxy.IPorxy;
+import com.PJA1982.pjal.reference.Reference;
+import com.PJA1982.pjal.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.common.MinecraftForge;
 
 
 /**
@@ -31,13 +31,15 @@ public class PJAL {
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
+
         LogHelper.info("Pre Int Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-        MinecraftForge.EVENT_BUS.register(new BlockBreakMessage());
+
         LogHelper.info("Int Complete!");
 
     }

@@ -1,6 +1,6 @@
-package com.PJA1982.PJAL.handler;
+package com.PJA1982.pjal.handler;
 
-import com.PJA1982.PJAL.reference.Reference;
+import com.PJA1982.pjal.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;

@@ -1,6 +1,6 @@
-package com.PJA1982.PJAL.utility;
+package com.PJA1982.pjal.utility;
 
-        import com.PJA1982.PJAL.reference.Reference;
+        import com.PJA1982.pjal.reference.Reference;
         import cpw.mods.fml.common.FMLLog;
         import org.apache.logging.log4j.Level;
 

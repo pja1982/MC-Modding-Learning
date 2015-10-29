@@ -1,4 +1,4 @@
-package com.PJA1982.PJAL.client.gui;
+package com.PJA1982.pjal.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

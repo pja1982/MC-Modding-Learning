@@ -1,6 +1,6 @@
-package com.PJA1982.PJAL.client.gui;
-import com.PJA1982.PJAL.handler.ConfigurationHandler;
-import com.PJA1982.PJAL.reference.Reference;
+package com.PJA1982.pjal.client.gui;
+import com.PJA1982.pjal.handler.ConfigurationHandler;
+import com.PJA1982.pjal.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;

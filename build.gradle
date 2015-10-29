@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-1.0"
-group= "com.PJA1982.PJAL" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "PJAL"
+group= "com.PJA1982.pjal" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "pjal"
 
 minecraft {
     version = "1.7.10-10.13.4.1448-1.7.10"
@@ -61,3 +61,4 @@ processResources
         exclude 'mcmod.info'
     }
 }
+idea { module { inheritOutputDirs = true } }
